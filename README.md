@@ -8,7 +8,7 @@ A collection of games made using Python and Pygame.
 ## Gameplay Preview
 
 <p align="center">
-  <img src="assets/bouncygame.gif" width="800">
+  <img src="assets/BouncyBallGame.gif" width="800">
 </p>
 
 ## Games
