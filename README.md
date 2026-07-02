@@ -8,16 +8,3 @@ It's the battle of the shapes. You get to play Mr. Rect, he is handsome and want
   <img src="assets/BouncyBallGame.gif" width="800">
 </p>
 
-
-
-## Gameplay Preview
-
-<p align="center">
-  <img src="assets/BouncyBallGame.gif" width="800">
-</p>
-
-## Games
-- 🟠 Bouncy Ball
-- 🐍 Snake
-- 🚀 Space Shooter
-- 🧩 Tetris
