@@ -1,9 +1,14 @@
 # BasuDevGames
-This May, an idea occurred me. I realized that I suck at gaming. I was tired of following the rules set by the game producers. Then a thought occurred to me, why don't you start making games? May be its time to check out the other si
+## Beware of Bouncy Ball
 
-# 🎮 GameArcade
+It's the battle of the shapes. You get to play Mr. Rect, he is handsome and wants to be the best. On the other corner, we have Mr. Bouncy, the bounciest shape on Earth. Mr. Rect has to beat Mr. Bouncy to become the greatest shape of all time. If Mr. Bouncy catches Mr. Rect, that will be the end for Mr. Rect. Every time Mr. Bouncy hits the wall, he becomes quicker, but each time he hits a wall, Mr. Rect's score increases. Mr. Rect has to be vigilant and collect the energy packages, which are offered to him after 6 points. Lets see how long you can survive in it..
+## Gameplay Preview
 
-A collection of games made using Python and Pygame.
+<p align="center">
+  <img src="assets/BouncyBallGame.gif" width="800">
+</p>
+
+
 
 ## Gameplay Preview
 
