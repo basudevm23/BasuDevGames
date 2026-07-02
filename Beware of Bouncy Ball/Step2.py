@@ -1,0 +1,71 @@
+import pygame
+
+# i switched off three statements for the auto completes here in vscode
+# and also switched off music which disturbed me 
+
+pygame.init()
+screen = pygame.display.set_mode((600, 1000))
+timer = pygame.time.Clock()
+framerate = 60
+
+pygame.display.set_caption("Bouncy Ball Game")
+red = (255, 0, 0)
+blue = (0, 0, 255)
+green = (0, 255, 0)
+
+pos_x = 500
+pos_y = 30
+
+pos_x_update = 8
+pos_y_update = 9
+
+my_fucking_colour = (69, 69, 69)
+
+def update_ball_position():
+
+    global pos_x
+    global pos_y, pos_x_update, pos_y_update
+
+    if  pos_x_update > 0:
+        if pos_x < 580:
+            pos_x = pos_x + pos_x_update
+
+        else:
+            pos_x_update = -1*pos_x_update
+    elif pos_x_update < 0:
+        if pos_x > 20:
+            pos_x = pos_x + pos_x_update
+        else:
+            pos_x_update = -1*pos_x_update
+
+    if  pos_y_update > 0:
+        if pos_y < 980:
+            pos_y = pos_y + pos_y_update
+
+        else:
+            pos_y_update = -1*pos_y_update
+    elif pos_y_update < 0:
+        if pos_y > 20:
+            pos_y = pos_y + pos_y_update
+        else:
+            pos_y_update = -1*pos_y_update          
+       
+running = True
+    
+while running:
+    timer.tick(framerate)
+    update_ball_position()
+    for event in pygame.event.get():
+        
+        if event.type == pygame.QUIT:
+            running = False
+
+    screen.fill(blue)
+
+    pygame.draw.circle(screen, red, (pos_x, pos_y), 20, 5)
+
+    pygame.display.flip() ### for putting it onto the screen
+
+pygame.quit()
+
+
